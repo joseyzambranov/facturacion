@@ -17,8 +17,9 @@ if(!empty($_SESSION['active'])){
 
             require_once "conexion.php";
 
-            $user = $_POST['usuario'];
-            $pass = $_POST['clave'];
+            $user = mysqli_real_escape_string($conection,$_POST['usuario']);
+            $pass = md5(mysqli_real_escape_string($conection,$_POST['clave']));
+            
 
             $query = mysqli_query($conection,"SELECT * FROM  usuario WHERE usuario= '$user' AND clave = '$pass' ");
             $result = mysqli_num_rows($query);

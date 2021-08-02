@@ -6,7 +6,7 @@
 	<!----------------------script------------------------------------------>
 	<?php include"include/script.php" ?>
 
-	<title>Sistema Ventas</title>
+	<title>Registro Usuario</title>
 </head>
 <body>
 	<!-------------------------header--------------------------------->
