@@ -58,7 +58,7 @@ if(!empty($_SESSION['active'])){
     <!---------------------------- UNICONS---------------------------->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!---------------------------- styles css---------------------------->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/stylo.css">
 
 
 </head>

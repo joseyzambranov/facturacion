@@ -161,3 +161,24 @@ nav li ul li:last-child{
 	padding: 90px 15px 15px;
 }
 /*****************************************************************/
+
+.form__register{
+	width: 450px;
+	margin: auto;
+}
+.form__register h1{
+	color: #3c93b0;
+}
+hr{
+	border: 0;
+	background: #ccc;
+	height: 1px;
+	margin: 10px 0;
+	display: block;
+}
+form{
+	background: #fff;
+	margin: auto;
+	padding: 20px 50px;
+	border: 1px solid #d1d1d1;
+}
