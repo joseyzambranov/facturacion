@@ -28,7 +28,7 @@ if(!empty($_SESSION['active'])){
                 $data = mysqli_fetch_array($query);
                 
                 $_SESSION['active']= true;
-                $_SESSION['idUser']= $data['usuario'];
+                $_SESSION['idUser']= $data['idusuario'];
                 $_SESSION['nombre']= $data['nombre'];
                 $_SESSION['correo']= $data['correo'];
                 $_SESSION['usuario']= $data['usuario'];
